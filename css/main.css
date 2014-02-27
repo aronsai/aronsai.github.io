@@ -59,6 +59,47 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 864px;
+    width: 58%;
+    padding: 5%;
+}
+
+#top {
+    float: left;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+#logo {
+    float: left;
+}
+
+#topmenu ul {
+    margin:0px;
+    float: right;
+}
+
+#topmenu li {
+    list-style: none;
+    display: inline;
+    margin-top: 0;
+}
+
+#topmenu a:hover {
+    color: white;
+    background-color: black;
+}
+
+#topmenu a {
+    padding: 20px;
+}
 
 
 
@@ -67,11 +108,12 @@ textarea {
 
 
 
+@media only screen and (min-width: 1160px) {
 
-
-
-
-
+    #wrapper {
+        padding-top: 55px;
+    }
+}
 
 
 /* ==========================================================================
