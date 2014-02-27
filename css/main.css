@@ -64,17 +64,12 @@ body a {
     color: black;
 }
 
-#wrapper {
+
+#top {
     margin: 0 auto;
     max-width: 864px;
     width: 58%;
     padding: 5%;
-}
-
-#top {
-    float: left;
-    width: 100%;
-    padding-bottom: 5%;
 }
 
 #logo {
@@ -110,7 +105,7 @@ body a {
 
 @media only screen and (min-width: 1160px) {
 
-    #wrapper {
+    #top {
         padding-top: 55px;
     }
 }
