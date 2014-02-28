@@ -70,6 +70,7 @@ body a {
     max-width: 864px;
     width: 58%;
     padding: 5%;
+    border: 1px solid black;
 }
 
 #logo {
@@ -96,7 +97,25 @@ body a {
     padding: 20px;
 }
 
+#logo a {
+    padding: 20px;
+}
 
+#logo a:hover {
+    color: white;
+    background-color: black;
+}
+
+.paddingleft {
+    width: 16%;
+    border: 1px solid black;
+    float: left;
+}
+
+.innerblock {
+    float: left;
+    padding: 5%;
+}
 
 
 
