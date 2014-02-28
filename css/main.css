@@ -59,18 +59,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    background-color: #E0E0E0;
+    font-family: 'Open Sans', sans-serif;
+}
+
 body a {
     text-decoration: none;
     color: black;
 }
 
 
-#top {
+#top, .innerblock {
     margin: 0 auto;
     max-width: 864px;
     width: 58%;
     padding: 5%;
-    border: 1px solid black;
 }
 
 #logo {
@@ -89,8 +93,8 @@ body a {
 }
 
 #topmenu a:hover {
-    color: white;
-    background-color: black;
+    color: #E0E0E0;
+    background-color: #A1A1A1;
 }
 
 #topmenu a {
@@ -102,21 +106,13 @@ body a {
 }
 
 #logo a:hover {
-    color: white;
-    background-color: black;
+    color: #E0E0E0;
+    background-color: #A1A1A1;
 }
 
-.paddingleft {
-    width: 16%;
-    border: 1px solid black;
-    float: left;
+.block {
+    background-color: #B1E0E0;
 }
-
-.innerblock {
-    float: left;
-    padding: 5%;
-}
-
 
 
 
@@ -124,8 +120,8 @@ body a {
 
 @media only screen and (min-width: 1160px) {
 
-    #top {
-        padding-top: 55px;
+    #top, .innerblock {
+        padding: 55px;
     }
 }
 
