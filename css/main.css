@@ -139,7 +139,7 @@ body a {
     position: absolute;
     width: 880px;
     padding: 20px;
-    margin-top: -85px;
+    margin-top: -84px;
     /*width: 80%;
     padding: 2% 5%;
     margin-top: -6.4%;*/
@@ -184,7 +184,7 @@ body a {
     text-align: center;
     top: 0px;
     width: 100%;
-    background-color: #515151;
+    background-image: url(../img/background.png);
     color: #EEEEEE;
     line-height: 30px;
     padding: 200px 0;
@@ -212,8 +212,9 @@ body a {
 
 #menu {
     position: fixed;
-    left: 368px;
+    left: 50%;
     top: 390px;
+    margin-left: -195px;
 }
 
 .menubutton {
