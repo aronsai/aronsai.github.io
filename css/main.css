@@ -70,7 +70,6 @@ body a {
     color: black;
 }
 
-
 #top, .innerblock {
     margin: 0 auto;
     width: 960px;
@@ -79,7 +78,7 @@ body a {
 
 #top {
     padding-bottom: 43px;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 #logo {
@@ -131,12 +130,12 @@ body a {
 }
 
 .innerblock {
-    height: 720px;
+    height: 740px;
 }
 
 .imgoverlay {
     position: absolute;
-    width: 920px;
+    width: 880px;
     padding: 20px;
     margin-top: -85px;
     /*width: 80%;
@@ -154,12 +153,16 @@ body a {
     -webkit-box-shadow: 1px 1px 1px 0px rgba(81, 81, 81, 1);
     -moz-box-shadow:    1px 1px 1px 0px rgba(81, 81, 81, 1);
     box-shadow:         1px 1px 1px 0px rgba(81, 81, 81, 1);
+    padding: 20px;
+    background-color: white;
 }
 
 #grabber {
     -webkit-box-shadow: 1px 1px 1px 0px rgba(81, 81, 81, 1);
     -moz-box-shadow:    1px 1px 1px 0px rgba(81, 81, 81, 1);
     box-shadow:         1px 1px 1px 0px rgba(81, 81, 81, 1);
+    padding: 20px;
+    background-color: white;
 }
 
 .subtitle {
