@@ -60,8 +60,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    background-color: #00B4FF;
+    background-color: #50ccff;
     font-family: 'Exo 2', 'Open Sans', sans-serif;
+    z-index: 1;
 }
 
 body, html {border: 0px; margin: 0px; padding: 0px; 
@@ -125,14 +126,10 @@ body a {
 }
 
 .block {
-    margin-bottom: 20px;
+    padding: 75px 0;
     /*-webkit-box-shadow: 1px -1px 1px 0px rgba(81, 81, 81, 1);
     -moz-box-shadow:    1px -1px 1px 0px rgba(81, 81, 81, 1);
     box-shadow:         1px -1px 1px 0px rgba(81, 81, 81, 1);*/
-}
-
-#block2 {
-    height: 780px;
 }
 
 .imgoverlay {
@@ -159,6 +156,10 @@ body a {
     background-color: white;
 }
 
+#linkpuff {
+    cursor: pointer;
+}
+
 #grabber {
     -webkit-box-shadow: 1px 1px 1px 0px rgba(81, 81, 81, 1);
     -moz-box-shadow:    1px 1px 1px 0px rgba(81, 81, 81, 1);
@@ -173,7 +174,8 @@ body a {
 }
 
 #footer {
-    width: 960px;
+    width: 920px;
+    padding: 20px;
     margin: 0 auto;
     font-size: 14px;
     text-align: right;
@@ -194,7 +196,7 @@ body a {
 
 #block2 {
     position: relative;
-    height: 810px;
+    height: 830px;
     margin-top: 684px;
     width: 100%;
     background-color: #00B4FF;
@@ -202,13 +204,17 @@ body a {
 }
 
 #block3 {
+    position: relative;
     background-color: #50ccff;
     z-index: 1;
+    height: 800px;
 }
 
 #block4 {
-    background-color: #50ccff;
+    position: relative;
+    background-color: #00B4FF;
     z-index: 1;
+    height: 800px;
 }
 
 .welcometext {
