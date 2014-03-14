@@ -60,7 +60,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    background-color: #515151;
+    background-color: #EEEEEE;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
 }
@@ -79,11 +79,7 @@ body a {
 
 #top {
     padding-bottom: 43px;
-    padding-top: 55px;
-}
-
-#topwrapper {
-    background-color: #EEEEEE;
+    padding-top: 100px;
 }
 
 #logo {
@@ -104,6 +100,9 @@ body a {
 .current {
     color: #EEEEEE;
     background-color: #00B4FF;
+    /*-webkit-box-shadow: 1px -1px 1px 0px rgba(81, 81, 81, 1);
+    -moz-box-shadow:    1px -1px 1px 0px rgba(81, 81, 81, 1);
+    box-shadow:         1px -1px 1px 0px rgba(81, 81, 81, 1);*/
 }
 
 #topmenu a:hover {
@@ -126,6 +125,9 @@ body a {
 
 .block {
     background-color: #00B4FF;
+    /*-webkit-box-shadow: 1px -1px 1px 0px rgba(81, 81, 81, 1);
+    -moz-box-shadow:    1px -1px 1px 0px rgba(81, 81, 81, 1);
+    box-shadow:         1px -1px 1px 0px rgba(81, 81, 81, 1);*/
 }
 
 .innerblock {
@@ -149,6 +151,15 @@ body a {
 .puff {
     margin-top: 20px;
     float: left;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(81, 81, 81, 1);
+    -moz-box-shadow:    1px 1px 1px 0px rgba(81, 81, 81, 1);
+    box-shadow:         1px 1px 1px 0px rgba(81, 81, 81, 1);
+}
+
+#grabber {
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(81, 81, 81, 1);
+    -moz-box-shadow:    1px 1px 1px 0px rgba(81, 81, 81, 1);
+    box-shadow:         1px 1px 1px 0px rgba(81, 81, 81, 1);
 }
 
 .subtitle {
@@ -163,8 +174,6 @@ body a {
     margin-top: 20px;
     font-size: 14px;
     text-align: right;
-    background-color: #515151;
-    color: white;
 }
 
 
