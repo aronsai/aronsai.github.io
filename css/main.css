@@ -194,11 +194,20 @@ body a {
 
 #block2 {
     position: relative;
-    text-align: center;
-    height: 780px;
+    height: 810px;
     margin-top: 684px;
     width: 100%;
     background-color: #00B4FF;
+    z-index: 1;
+}
+
+#block3 {
+    background-color: #50ccff;
+    z-index: 1;
+}
+
+#block4 {
+    background-color: #50ccff;
     z-index: 1;
 }
 
@@ -238,6 +247,10 @@ body a {
 .menubutton a:hover {
     background-color: #EEEEEE;
     color: #515151;
+}
+
+.blockheader {
+    color: white;
 }
 
 @media only screen and (min-width: 1160px) {
