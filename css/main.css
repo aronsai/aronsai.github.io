@@ -60,7 +60,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    background-color: #E0E0E0;
+    background-color: #EEEEEE;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -72,9 +72,13 @@ body a {
 
 #top, .innerblock {
     margin: 0 auto;
-    max-width: 864px;
-    width: 58%;
-    padding: 5%;
+    width: 960px;
+    padding: 20px;
+}
+
+#top {
+    padding-bottom: 43px;
+    padding-top: 55px;
 }
 
 #logo {
@@ -92,9 +96,14 @@ body a {
     margin-top: 0;
 }
 
+.current {
+    color: #EEEEEE;
+    background-color: #00B4FF;
+}
+
 #topmenu a:hover {
-    color: #E0E0E0;
-    background-color: #A1A1A1;
+    color: #EEEEEE;
+    background-color: #515151;
 }
 
 #topmenu a {
@@ -106,23 +115,65 @@ body a {
 }
 
 #logo a:hover {
-    color: #E0E0E0;
-    background-color: #A1A1A1;
+    color: #EEEEEE;
+    background-color: #515151;
 }
 
 .block {
-    background-color: #B1E0E0;
+    background-color: #00B4FF;
 }
 
+.innerblock {
+    height: 720px;
+}
 
+.imgoverlay {
+    position: absolute;
+    width: 920px;
+    padding: 20px;
+    margin-top: -85px;
+    /*width: 80%;
+    padding: 2% 5%;
+    margin-top: -6.4%;*/
+    background-color: white;
+    opacity:0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+    text-align: right;
+}
+
+.puff {
+    margin-top: 20px;
+    float: left;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #515151;
+}
+
+#footer {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: right;
+}
 
 
 
 @media only screen and (min-width: 1160px) {
 
-    #top, .innerblock {
+    /*#top, .innerblock{
         padding: 55px;
+        width: 100%;
     }
+    #top {
+        padding-bottom: 43px;
+    }
+    .imgoverlay {
+        padding: 55px;
+        width: 80%;
+    }*/
 }
 
 
