@@ -60,10 +60,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-    background-color: #EEEEEE;
-    font-family: 'Open Sans', sans-serif;
-    height: 100%;
+    background-color: #00B4FF;
+    font-family: 'Exo 2', 'Open Sans', sans-serif;
 }
+
+body, html {border: 0px; margin: 0px; padding: 0px; 
+height:100%; position:relative; width:100%;}
 
 body a {
     text-decoration: none;
@@ -123,14 +125,14 @@ body a {
 }
 
 .block {
-    background-color: #00B4FF;
+    margin-bottom: 20px;
     /*-webkit-box-shadow: 1px -1px 1px 0px rgba(81, 81, 81, 1);
     -moz-box-shadow:    1px -1px 1px 0px rgba(81, 81, 81, 1);
     box-shadow:         1px -1px 1px 0px rgba(81, 81, 81, 1);*/
 }
 
-.innerblock {
-    height: 740px;
+#block2 {
+    height: 780px;
 }
 
 .imgoverlay {
@@ -172,14 +174,70 @@ body a {
 
 #footer {
     width: 960px;
-    height: 100%;
     margin: 0 auto;
-    margin-top: 20px;
     font-size: 14px;
     text-align: right;
 }
 
+#block1 {
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    background-color: #515151;
+    color: #EEEEEE;
+    line-height: 30px;
+    padding: 200px 0;
+    z-index: 0;
+    height: 300px;
+}
 
+#block2 {
+    position: relative;
+    text-align: center;
+    height: 780px;
+    margin-top: 684px;
+    width: 100%;
+    background-color: #00B4FF;
+    z-index: 1;
+}
+
+.welcometext {
+    font-size: 30px;
+}
+
+.subwelcome {
+    font-size: 30px;
+}
+
+#menu {
+    position: fixed;
+    left: 368px;
+    top: 390px;
+}
+
+.menubutton {
+    float: left;
+}
+
+.menubutton a {
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid #818181;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #EEEEEE;
+    -webkit-transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.menubutton a:hover {
+    background-color: #EEEEEE;
+    color: #515151;
+}
 
 @media only screen and (min-width: 1160px) {
 
