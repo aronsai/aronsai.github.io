@@ -93,21 +93,22 @@ body a {
     width: 100%;
     background-image: url(../img/background.png);
     color: #EEEEEE;
-    line-height: 30px;
+    line-height: 24px;
     padding: 75px 0;
     z-index: 0;
     height: 200px;
 }
 
 .welcometext {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 #menu {
     position: fixed;
     left: 50%;
     top: 220px;
-    margin-left: -195px;
+    margin-left: -160px;
+    font-size: 14px;
 }
 
 .menubutton {
@@ -121,7 +122,7 @@ body a {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
     color: #EEEEEE;
     -webkit-transition: background-color 0.5s, color 0.5s;
@@ -176,6 +177,21 @@ body a {
 
     #block1 {
         height: 100px;
+        line-height: 30px;
+    }
+
+    .welcometext {
+        font-size: 30px;
+    }
+
+    #menu {
+        font-size: 16px;
+        top: 220px;
+        margin-left: -195px;
+    }
+
+    .menubutton a {
+        margin-left: 20px;
     }
 
     .imgoverlay {
