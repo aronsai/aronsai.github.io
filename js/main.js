@@ -24,4 +24,17 @@ $(document).ready(function() {
     	}, 500);
 	});
 
+	$("#totop").click(function() {
+		$('html, body').animate({
+        scrollTop: 0
+    	}, 500);
+	});
+
+	$(window).scroll(function(){
+		if ( $(window).scrollTop() >= $("#block2").offset().top )
+			$("#totop").fadeIn();
+		else
+			$("#totop").fadeOut();
+	});
+
 });
