@@ -185,8 +185,6 @@ body a {
     }
 
     #block1 {
-        position: fixed;
-        z-index: 0;
         height: 230px;
         line-height: 30px;
     }
@@ -196,11 +194,11 @@ body a {
     }
 
     #menu {
-        left: 50%;
         font-size: 16px;
-        top: 220px;
+        margin-top: 20px;
+        left: 50%;
         margin-left: -195px;
-        position: fixed;
+        position: absolute;
     }
 
     .menubutton a {
@@ -208,7 +206,19 @@ body a {
     }
 
     #block2 {
-        margin-top: 684px;
+        height: 630px;
+    }
+
+    #grabber {
+        width: auto;
+    }
+
+    .puff, .puffpic {
+        width: 211px;
+    }
+
+    .puff:nth-child(4), .puff:nth-child(5) {
+        margin-left: 10px;
     }
 
     .imgoverlay {
@@ -218,7 +228,7 @@ body a {
     }
 
     .puffover {
-        width: 227px;
+        width: 191px;
     }
 
     .puff, #grabber {
@@ -240,12 +250,18 @@ body a {
     }
 
     #block1 {
+        position: fixed;
+        z-index: 0;
         height: 300px;
         padding: 220px 0;
     }
 
     #menu {
+        left: 50%;
+        font-size: 16px;
         top: 365px;
+        margin-left: -195px;
+        position: fixed;
     }
 
     .menubutton a {
@@ -267,6 +283,8 @@ body a {
     }
 
     #block2{
+        position: relative;
+        margin-top: 740px;
         height: 830px;
     }
 
@@ -274,6 +292,10 @@ body a {
         width: 880px;
         padding: 20px;
         margin-top: -84px; 
+    }
+
+    .puffover {
+        width: 227px;
     }
 
     .puff, #grabber {
@@ -285,12 +307,12 @@ body a {
         box-shadow:         1px 1px 1px 0px rgba(81, 81, 81, 1);
     }
 
-    .puff {
+    .puff:nth-child(4), .puff:nth-child(5) {
         margin-left: 20px;
     }
 
-    .puffpic {
-        width: 267px;
+    .puff, .puffpic {
+        width: 266px;
     }
 
     #block3 {
