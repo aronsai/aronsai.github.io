@@ -73,112 +73,17 @@ body a {
     color: black;
 }
 
-#top, .innerblock {
+#footer, .innerblock {
     margin: 0 auto;
-    width: 960px;
-    padding: 20px;
-}
-
-#top {
-    padding-bottom: 43px;
-    padding-top: 20px;
-}
-
-#logo {
-    float: left;
-}
-
-#topmenu ul {
-    margin:0px;
-    float: right;
-}
-
-#topmenu li {
-    list-style: none;
-    display: inline;
-    margin-top: 0;
-}
-
-.current {
-    color: #EEEEEE;
-    background-color: #00B4FF;
-    /*-webkit-box-shadow: 1px -1px 1px 0px rgba(81, 81, 81, 1);
-    -moz-box-shadow:    1px -1px 1px 0px rgba(81, 81, 81, 1);
-    box-shadow:         1px -1px 1px 0px rgba(81, 81, 81, 1);*/
-}
-
-#topmenu a:hover {
-    color: #EEEEEE;
-    background-color: #515151;
-}
-
-#topmenu a {
-    padding: 20px;
-}
-
-#logo a {
-    padding: 20px;
-}
-
-#logo a:hover {
-    color: #EEEEEE;
-    background-color: #515151;
 }
 
 .block {
-    padding: 75px 0;
-    /*-webkit-box-shadow: 1px -1px 1px 0px rgba(81, 81, 81, 1);
-    -moz-box-shadow:    1px -1px 1px 0px rgba(81, 81, 81, 1);
-    box-shadow:         1px -1px 1px 0px rgba(81, 81, 81, 1);*/
+    width: 100%;
+    position: relative;
 }
 
-.imgoverlay {
-    position: absolute;
-    width: 880px;
-    padding: 20px;
-    margin-top: -84px;
-    /*width: 80%;
-    padding: 2% 5%;
-    margin-top: -6.4%;*/
-    background-color: white;
-    opacity:0.9;
-    filter:alpha(opacity=90); /* For IE8 and earlier */
-    text-align: right;
-}
-
-.puff {
-    margin-top: 20px;
-    float: left;
-    -webkit-box-shadow: 1px 1px 1px 0px rgba(81, 81, 81, 1);
-    -moz-box-shadow:    1px 1px 1px 0px rgba(81, 81, 81, 1);
-    box-shadow:         1px 1px 1px 0px rgba(81, 81, 81, 1);
-    padding: 20px;
-    background-color: white;
-}
-
-#linkpuff {
-    cursor: pointer;
-}
-
-#grabber {
-    -webkit-box-shadow: 1px 1px 1px 0px rgba(81, 81, 81, 1);
-    -moz-box-shadow:    1px 1px 1px 0px rgba(81, 81, 81, 1);
-    box-shadow:         1px 1px 1px 0px rgba(81, 81, 81, 1);
-    padding: 20px;
-    background-color: white;
-}
-
-.subtitle {
-    font-size: 14px;
-    color: #515151;
-}
-
-#footer {
-    width: 920px;
-    padding: 20px;
-    margin: 0 auto;
-    font-size: 14px;
-    text-align: right;
+.blockheader {
+    color: white;
 }
 
 #block1 {
@@ -189,46 +94,19 @@ body a {
     background-image: url(../img/background.png);
     color: #EEEEEE;
     line-height: 30px;
-    padding: 200px 0;
+    padding: 75px 0;
     z-index: 0;
-    height: 300px;
-}
-
-#block2 {
-    position: relative;
-    height: 830px;
-    margin-top: 684px;
-    width: 100%;
-    background-color: #00B4FF;
-    z-index: 1;
-}
-
-#block3 {
-    position: relative;
-    background-color: #50ccff;
-    z-index: 1;
-    height: 800px;
-}
-
-#block4 {
-    position: relative;
-    background-color: #00B4FF;
-    z-index: 1;
-    height: 800px;
+    height: 200px;
 }
 
 .welcometext {
     font-size: 30px;
 }
 
-.subwelcome {
-    font-size: 30px;
-}
-
 #menu {
     position: fixed;
     left: 50%;
-    top: 390px;
+    top: 220px;
     margin-left: -195px;
 }
 
@@ -255,43 +133,141 @@ body a {
     color: #515151;
 }
 
-.blockheader {
-    color: white;
-}
-
-#totop {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    margin-left: -15px;
+#block2 {
+    height: 830px;
+    margin-top: 684px;
+    width: 100%;
+    background-color: #00B4FF;
     z-index: 1;
-    padding: 10px;
+}
+
+.puff, #grabber {
+    float: left;
     background-color: white;
+}
+
+#linkpuff {
     cursor: pointer;
-    -webkit-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    display: none;
 }
 
-#totop:hover {
-    background-color: #EEEEEE;
+.imgoverlay {
+    position: absolute;
+    background-color: white;
+    opacity:0.9;
+    filter:alpha(opacity=90); /* For IE8 and earlier */
+    text-align: right;
 }
 
-@media only screen and (min-width: 1160px) {
+.subtitle {
+    font-size: 14px;
+    color: #515151;
+}
 
-    /*#top, .innerblock{
-        padding: 55px;
-        width: 100%;
+@media only screen and (min-width: 760px) {
+
+    .innerblock {
+        width: 720px;
+        padding: 10px;
     }
-    #top {
-        padding-bottom: 43px;
+
+    .block {
+        padding: 75px 0;
     }
+
+    #block1 {
+        height: 100px;
+    }
+
     .imgoverlay {
-        padding: 55px;
-        width: 80%;
-    }*/
+        width: 678px;
+        padding: 10px;
+        margin-top: -64px;
+    }
+
+    .puff, #grabber {
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid #515151;
+    }
+
 }
 
+@media only screen and (min-width: 1020px) {
+
+    .innerblock {
+        width: 960px;
+        padding: 20px;
+    }
+
+    .block {
+        padding: 75px 0;
+    }
+
+    #block1 {
+        height: 300px;
+        padding: 220px 0;
+    }
+
+    .imgoverlay {
+            width: 880px;
+            padding: 20px;
+            margin-top: -84px; 
+    }
+
+    .puff, #grabber {
+        margin-top: 20px;
+        padding: 20px;
+        border: 0;
+        -webkit-box-shadow: 1px 1px 1px 0px rgba(81, 81, 81, 1);
+        -moz-box-shadow:    1px 1px 1px 0px rgba(81, 81, 81, 1);
+        box-shadow:         1px 1px 1px 0px rgba(81, 81, 81, 1);
+    }
+
+    #block3 {
+        position: relative;
+        background-color: #50ccff;
+        z-index: 1;
+        height: 800px;
+    }
+
+    #block4 {
+        position: relative;
+        background-color: #00B4FF;
+        z-index: 1;
+        height: 800px;
+    }
+
+    #footer {
+        position: relative;
+        z-index: 1;
+        width: 920px;
+        padding: 20px;
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: right;
+    }
+
+    #totop {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        margin-left: -15px;
+        z-index: 1;
+        padding: 10px;
+        background-color: white;
+        cursor: pointer;
+        -webkit-transition: background-color 0.5s;
+        transition: background-color 0.5s;
+        display: none;
+    }
+
+    #totop:hover {
+        background-color: #EEEEEE;
+    }
+
+
+
+}
 
 /* ==========================================================================
    Media Queries
