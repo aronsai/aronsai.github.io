@@ -31,7 +31,7 @@ $(document).ready(function() {
 	});
 
 	$(window).scroll(function(){
-		if ( $(window).scrollTop() >= $("#block2").offset().top )
+		if ( $(window).scrollTop() >= ($("#block2").offset().top -1) )
 			$("#totop").fadeIn();
 		else
 			$("#totop").fadeOut();
