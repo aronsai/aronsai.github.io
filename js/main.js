@@ -30,11 +30,15 @@ $(document).ready(function() {
     	}, 500);
 	});
 
-	$(window).scroll(function(){
-		if ( $(window).scrollTop() >= ($("#block2").offset().top -1) )
-			$("#totop").fadeIn();
-		else
-			$("#totop").fadeOut();
-	});
+	var current_width = $(window).width();
+
+	if (current_width > 960){
+		$(window).scroll(function(){
+			if ( $(window).scrollTop() >= ($("#block2").offset().top -1) )
+				$("#totop").fadeIn();
+			else
+				$("#totop").fadeOut();
+		});
+	}
 
 });
