@@ -71,6 +71,7 @@ textarea {
 body {
     font-family: 'Lato';
     padding: 40px;
+    background-color: #6c98a8;
 }
 
 .normal {
@@ -94,7 +95,7 @@ body {
 }
 
 a {
-    color: #666;
+    color: #daeef5;
     text-decoration: none;
 }
 
@@ -110,6 +111,7 @@ a:hover {
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
+    color: white;
 }
 
 /* ==========================================================================
